@@ -1,0 +1,128 @@
+
+@charset "UTF-8";
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+    body{
+        background-color: #121212;
+    }
+    header{
+        background-color:#0D0D0D;
+        padding-bottom: 25px;
+    }
+    main{
+        border: 2px  solid #fafafa7e;  
+        border-left: none;  
+        border-right: none;
+    }
+        #menu{
+        display: none;
+    }
+
+    .burger{
+        margin: 20px 10px;
+        cursor: pointer;
+        color: white;
+    }
+
+    nav{
+        display: none;
+        flex-direction: column;
+        background-color:#1D1D1D;
+        width: 220px;
+        border-radius: 10px;
+        margin-top: 10px;
+        position: absolute;
+        top: 60px;
+        left: 10px;
+        z-index: 9999;
+    }
+    nav a{
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    }
+
+    nav a:hover{
+    background: #D4AF37;
+    color: black;
+    }
+
+    #menu:checked + .burger + nav{
+        display: flex;
+    }
+    #paiheader{
+    display: flex;
+    justify-content: space-between;
+    }
+    #card{
+        background-color: #1D1D1D;
+        max-width: 1000px;
+        margin: 10px 20px;
+        padding: 20px;
+        text-indent: 15px;
+        border-radius: 18px;
+        transition: ease 0.3s;
+        border: 1px solid #695708;
+    }
+    #card:hover{
+    border-color: #F4D35E;
+    transform: translateY(-5px);
+    }
+    #card:hover p{
+        color: #CFCFCF;
+    }
+    h1{
+        text-shadow: 1px 1px 1px rgba(245, 245, 245, 0.479);
+        font-size: 40px;
+        margin: auto;
+        color:#FFFFFF ;
+        padding: 20px  10px 10px;
+    }
+    p{
+        color:#B3B3B3 ;
+        font-size: 20px;
+    }
+
+    h2{
+        margin-top: 40px;
+        color: #FAFAFA;
+    }
+    #bannerramefogo{
+        display: flex;
+        justify-content: center;
+    }
+    #bannerramefogo img{
+        padding-bottom: 5px;
+        height: 50%;
+        width: 50%;
+    }
+    #pai{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    footer{
+        background-color: black;
+    }
+    footer{
+        padding: 10px;
+    }
+    footer p{
+        font-size: 15px;
+        text-align: center;
+        padding: 0px 10px;
+    }
+    footer img{
+        height: 30px;
+        width: 30px;
+    }
+    #paifooter{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
