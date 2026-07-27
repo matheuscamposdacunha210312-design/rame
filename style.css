@@ -10,8 +10,12 @@
         background-color: #121212;
     }
     header{
+        position: sticky;
+        top: 0;
+        z-index: 99999;
         background-color:#0D0D0D;
-        padding-bottom: 25px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #fafafa7e;
     }
     main{
         border: 2px  solid #fafafa7e;  
@@ -20,12 +24,14 @@
     }
         #menu{
         display: none;
+
     }
 
     .burger{
         margin: 20px 10px;
         cursor: pointer;
         color: white;
+
     }
 
     nav{
@@ -109,8 +115,6 @@
     }
     footer{
         background-color: black;
-    }
-    footer{
         padding: 10px;
     }
     footer p{
