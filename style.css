@@ -6,6 +6,7 @@
   margin: 0px;
   box-sizing: border-box;
 }
+
     body{
         background-color: #121212;
     }
@@ -63,8 +64,9 @@
         display: flex;
     }
     #paiheader{
-    display: flex;
-    justify-content: space-between;
+        display: flex;
+        justify-content: space-between;
+
     }
     #card{
         background-color: #1D1D1D;
@@ -133,3 +135,15 @@
         align-items: center;
         justify-content: center;
     }
+    #brasao{
+        padding: 10px;
+        width: 300px;
+        height: 300px;
+    }
+    @media (max-width: 700px){
+
+    #brasao{
+        width: 150px;
+        height: 150px;
+    }
+}
